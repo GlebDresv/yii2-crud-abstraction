@@ -1,0 +1,32 @@
+{
+  "name": "gleb-dresv/yii2-crud-abstraction",
+  "type": "library",
+  "description": "Your package description goes here",
+  "homepage": "https://yourcompany.com",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "abstractCRUD\\": [
+        "src/"
+      ]
+    }
+  },
+  "require": {
+    "php": ">=7.1.0",
+    "yiisoft/yii2": "^2.0.13",
+    "yiisoft/yii2-bootstrap": "^2.0.0"
+  },
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://asset-packagist.org"
+    }
+  ],
+  "authors": [
+    {
+      "name": "Gleb Dresviannikov",
+      "email": "gleb.dresviannikov@gmail.com",
+      "role": "Developer"
+    }
+  ]
+}
