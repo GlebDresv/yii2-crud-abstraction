@@ -1,8 +1,7 @@
 {
-  "name": "gleb-dresv/yii2-crud-abstraction",
+  "name": "gd/yii2-crud-abstraction",
   "type": "library",
-  "description": "Your package description goes here",
-  "homepage": "https://yourcompany.com",
+  "minimum-stability": "dev",
   "license": "MIT",
   "autoload": {
     "psr-4": {
@@ -12,9 +11,10 @@
     }
   },
   "require": {
-    "php": ">=7.1.0",
+    "php": ">=7.2.0",
     "yiisoft/yii2": "^2.0.13",
-    "yiisoft/yii2-bootstrap": "^2.0.0"
+    "yiisoft/yii2-bootstrap": "^2.0.0",
+    "warkeeper/yii2-contracts": "dev-master"
   },
   "repositories": [
     {

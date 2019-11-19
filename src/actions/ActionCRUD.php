@@ -2,7 +2,7 @@
 
 namespace abstractCRUD\actions;
 
-use abstractCRUD\models\IBackendModel;
+use warkeeper\yii2_contracts\IBackendModel;
 use Closure;
 use Yii;
 use yii\base\Action;

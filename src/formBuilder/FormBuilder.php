@@ -2,13 +2,14 @@
 
 namespace abstractCRUD\formBuilder;
 
-use abstractCRUD\models\IBackendModel;
+use warkeeper\yii2_contracts\IBackendModel;
 use yii\base\Model;
 use yii\widgets\ActiveForm;
 use yii\helpers\ArrayHelper;
 use yii\widgets\ActiveField;
 use yii\widgets\InputWidget;
 use yii\base\InvalidConfigException;
+use warkeeper\yii2_contracts\IFormBuilder;
 
 /**
  * Class FormBuilder
@@ -16,20 +17,6 @@ use yii\base\InvalidConfigException;
  */
 class FormBuilder extends ActiveForm implements IFormBuilder
 {
-    const INPUT_CHECKBOX = 'checkbox';
-    const INPUT_CHECKBOX_LIST = 'checkboxList';
-    const INPUT_FILE = 'fileInput';
-    const INPUT_HIDDEN = 'hiddenInput';
-    const INPUT_INPUT = 'input';
-    const INPUT_LIST_BOX = 'listBox';
-    const INPUT_RADIO = 'radio';
-    const INPUT_RADIO_LIST = 'radioList';
-    const INPUT_TEXT = 'textInput';
-    const INPUT_TEXTAREA = 'textarea';
-    const INPUT_PASSWORD = 'passwordInput';
-    const INPUT_DROPDOWN_LIST = 'dropdownList';
-    const INPUT_WIDGET = 'widget';
-    const INPUT_RAW = 'raw';
 
     /**
      * @param Model|IBackendModel $model

@@ -5,7 +5,7 @@ use \yii\grid\GridView;
 use yii\helpers\Html;
 
 /* @var $this yii\web\View */
-/* @var $searchModel \abstractCRUD\models\IBackendSearchModel */
+/* @var $searchModel \warkeeper\yii2_contracts\IBackendSearchModel */
 /* @var $dataProvider yii\data\BaseDataProvider */
 
 $modelClass = $searchModel->getModelClass();

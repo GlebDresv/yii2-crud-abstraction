@@ -2,7 +2,7 @@
 
 use yii\helpers\Html;
 use yii\bootstrap\Tabs;
-use abstractCRUD\models\IBackendModel;
+use warkeeper\yii2_contracts\IBackendModel;
 
 /**
  * @var $this yii\web\View

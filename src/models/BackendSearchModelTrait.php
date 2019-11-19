@@ -1,7 +1,7 @@
 <?php
 
 
-namespace abstractCRUD\models;
+namespace yii2_gd_contracts;
 
 use yii\data\ActiveDataProvider;
 use yii\data\BaseDataProvider;
@@ -10,7 +10,7 @@ use yii\grid\ActionColumn;
 
 /**
  * Trait BackendSearchModelTrait
- * @package abstractCRUD\models
+ * @package yii2_gd_contracts
  */
 trait BackendSearchModelTrait
 {

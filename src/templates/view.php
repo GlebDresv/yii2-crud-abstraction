@@ -5,7 +5,7 @@ use yii\widgets\DetailView;
 
 /**
  * @var $this yii\web\View
- * @var $model \abstractCRUD\models\IBackendModel
+ * @var $model \warkeeper\yii2_contracts\IBackendModel
  */
 
 $controller = $this->context;

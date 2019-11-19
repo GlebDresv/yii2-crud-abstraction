@@ -1,7 +1,7 @@
 <?php
 
 
-namespace abstractCRUD\models;
+namespace yii2_gd_contracts;
 
 use Yii;
 use yii\db\ActiveRecord;
@@ -88,6 +88,11 @@ trait BackendModelTrait
 
     public function getDefaultFormTabName()
     {
-        return \Yii::t('backend/models', 'main tab name for model form');
+        return $this->getTranslatedTabName('main tab name for model form');
+    }
+
+    public function getTranslatedTabName($tabName)
+    {
+        return \Yii::t('backend/' . $this->formName(), $tabName);
     }
 }

@@ -1,7 +1,7 @@
 <?php
 
 use yii\helpers\Html;
-use abstractCRUD\models\IBackendModel;
+use warkeeper\yii2_contracts\IBackendModel;
 
 /**
  * @var $this yii\web\View
